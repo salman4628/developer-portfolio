@@ -9,7 +9,7 @@ h1{
 .myname{
     color: rgb(93, 179, 255);
 }
-section{
+.flexible-cont{
     display: flex;
     margin-bottom: 100px;
 }
@@ -41,4 +41,31 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     text-align: justify;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(219, 150, 165),rgb(235, 41, 67));
+    border-image-slice: 1;
+}
+#web-dev-yx{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(238, 255, 0, 0.397),rgb(193, 141, 235));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+
 }
